@@ -1,5 +1,5 @@
 // button function 
-let num = 0
+let num = 0;
 function buttonClicked(){
 
 	let newText = "Number of times button clicked: ";
@@ -8,6 +8,6 @@ function buttonClicked(){
 	let buttonDiv = document.getElementById("button-div");
 
 	// run addOne function
-	num += 1
+	num += 1;
 	buttonDiv.innerHTML = newText + num;
 }
