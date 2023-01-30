@@ -1,5 +1,7 @@
-// button function 
+// set global variable
 let num = 0;
+
+// button function 
 function buttonClicked(){
 
 	let newText = "Number of times button clicked: ";
@@ -7,7 +9,7 @@ function buttonClicked(){
 	// select element to be modified
 	let buttonDiv = document.getElementById("button-div");
 
-	// run addOne function
+	// increment num everytime this function is ran 
 	num += 1;
 	buttonDiv.innerHTML = newText + num;
 }
